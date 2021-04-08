@@ -10,9 +10,6 @@ small number of weapons and other treasure which are ripe for the taking. The pl
 clear the dungeon of monsters - there are not currently any story elements for the game.
 
 ## IN FUTURE VERSIONS
-- Lines with the `eval` method will be updated to use closures such as blocks or procs. This is in line with the
-  next section of Launch School's Ruby Learning Materials.
-- Additional libraries for monsters and treasure items will be added and abstracted away from the main code base.
-- Functionality for creating a map and revisiting old rooms will be added.
-- A basic test suite will be added and expanded upon as the game grows in complexity.
-- The code will be properly packaged in preparation for networking the application.
+All this functionality will be moved to the front-end using Javascript. The back-end will use Ruby to facilitate
+player authorization, saving game progress, and returning JSON objects to populate the game with monsters, rooms,
+and items.
